@@ -48,6 +48,16 @@ router.post("/api/workouts", ({body}, res) => {
 
 router.get("/api/workouts/range", ({body}, res) => {
 
+  db.Workout.find({
+  }).limit(7)
+  .sort({ date: 1 })
+  .then(dbWorkout => {
+    res.json(dbWorkout);
+  })
+  .catch(err => {
+    res.status(400).json(err);
+  });
+
 });
 
 
