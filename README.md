@@ -1,4 +1,4 @@
-# Workout Tracket
+# Workout Tracker
 
 This is a workout tracker where users can start a workout and add to it. Using Mongo db and Mongoose schema as well as express, users can add to a workout and complete it. They are able to track the progress and see a snapshot of the last seven workouts.
 
