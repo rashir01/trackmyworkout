@@ -1,7 +1,6 @@
 const router = require("express").Router();
 const db = require("../models");
 const path = require("path");
-//const mongojs = require("mongojs");
 
 
 router.get("/api/workouts", ({ body }, res) => {
