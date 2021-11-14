@@ -22,7 +22,8 @@ npm start
 ## Links
 
 The app can also be used from the deployed version on heroku
-[Heroku Deployment](https://myrants.herokuapp.com/)
+[Heroku Deployment](https://noworkoutforyou.herokuapp.com/)
+[github Repo](https://github.com/rashir01/trackmyworkout)
 
 ## Contributing
 
